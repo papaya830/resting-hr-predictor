@@ -102,3 +102,22 @@ This is a single-subject, observational study, so results describe associations
 
 for one person and are not intended as causal or generalizable claims.
 
+## Notes on anomalous periods
+Travel (different climate / timezone / routine — cross-checked against the
+utc_offset recorded in the sleep data):
+- Toronto: Jan 8–13 and Mar 20–23, 2026
+- Malaysia: Jan 18–29, 2026 (hot/humid, +8h timezone)
+- Edmonton: Apr 25–28, 2026
+
+Illness: Apr 18–28, 2026 — resting HR elevated, training load ~0. Note this
+overlaps the Edmonton trip at the end, so late April is treated as a single
+excluded period rather than separating the two effects.
+
+## Data coverage note
+Resting heart rate and training load (AZM) span the full period (Sep 2025 – Jul 2026).
+Sleep tracking is sparse before January: the watch wasn't worn to sleep
+consistently until ~January 2026, so reliable nightly sleep data covers
+Jan–Jul 2026 (~140 nights). Daily readiness likewise begins Jan 7 (after the
+device's calibration period). Analyses using sleep or readiness are therefore
+run on this shorter window, while training-load-vs-resting-HR analysis uses the
+full 9 months.
